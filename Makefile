@@ -1,5 +1,5 @@
 server-wrapper:
-	$(CC) run.c -o run
+	$(CC) -static run.c -o run
 
 clean:
 	$(RM) run
