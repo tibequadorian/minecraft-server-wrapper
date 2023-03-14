@@ -1,4 +1,4 @@
-server-wrapper:
+all:
 	$(CC) -static run.c -o run
 
 clean:
